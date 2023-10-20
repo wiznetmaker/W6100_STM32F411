@@ -1,0 +1,11 @@
+.\rsa_internal.o: ..\Libraries\mbedtls\library\rsa_internal.c
+.\rsa_internal.o: ..\Libraries\mbedtls\library\common.h
+.\rsa_internal.o: ../Port/mbedtls/inc/ssl_config.h
+.\rsa_internal.o: ../Libraries/mbedtls/include/mbedtls/check_config.h
+.\rsa_internal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\rsa_internal.o: ../Libraries/mbedtls/include/mbedtls/rsa.h
+.\rsa_internal.o: ../Libraries/mbedtls/include/mbedtls/bignum.h
+.\rsa_internal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\rsa_internal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rsa_internal.o: ../Libraries/mbedtls/include/mbedtls/md.h
+.\rsa_internal.o: ../Libraries/mbedtls/include/mbedtls/rsa_internal.h

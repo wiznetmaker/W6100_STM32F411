@@ -1,0 +1,16 @@
+.\aes.o: ..\Libraries\mbedtls\library\aes.c
+.\aes.o: ..\Libraries\mbedtls\library\common.h
+.\aes.o: ../Port/mbedtls/inc/ssl_config.h
+.\aes.o: ../Libraries/mbedtls/include/mbedtls/check_config.h
+.\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\aes.o: ../Libraries/mbedtls/include/mbedtls/aes.h
+.\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\aes.o: ../Libraries/mbedtls/include/mbedtls/platform.h
+.\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\aes.o: ../Libraries/mbedtls/include/mbedtls/platform_util.h
+.\aes.o: ../Libraries/mbedtls/include/mbedtls/error.h
+.\aes.o: ../Libraries/mbedtls/include/mbedtls/aesni.h

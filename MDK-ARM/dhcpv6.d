@@ -1,0 +1,11 @@
+.\dhcpv6.o: ..\Libraries\io6Library_Driver\Internet\DHCP6\dhcpv6.c
+.\dhcpv6.o: ..\Libraries\io6Library_Driver\Internet\DHCP6\dhcpv6.h
+.\dhcpv6.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\dhcpv6.o: ../Libraries/io6Library_Driver/Ethernet/W6100/W6100.h
+.\dhcpv6.o: ../Libraries/io6Library_Driver/Ethernet/wizchip_conf.h
+.\dhcpv6.o: ../Libraries/io6Library_Driver/Ethernet/./W6100/w6100.h
+.\dhcpv6.o: ../Libraries/io6Library_Driver/Ethernet/../Application/Application.h
+.\dhcpv6.o: ../Libraries/io6Library_Driver/Ethernet/socket.h
+.\dhcpv6.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\dhcpv6.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\dhcpv6.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

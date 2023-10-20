@@ -1,0 +1,10 @@
+.\dns.o: ..\Libraries\io6Library_Driver\Internet\DNS\dns.c
+.\dns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\dns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\dns.o: ../Libraries/io6Library_Driver/Ethernet/socket.h
+.\dns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\dns.o: ../Libraries/io6Library_Driver/Ethernet/wizchip_conf.h
+.\dns.o: ../Libraries/io6Library_Driver/Ethernet/./W6100/w6100.h
+.\dns.o: ../Libraries/io6Library_Driver/Ethernet/wizchip_conf.h
+.\dns.o: ../Libraries/io6Library_Driver/Ethernet/../Application/Application.h
+.\dns.o: ..\Libraries\io6Library_Driver\Internet\DNS\dns.h

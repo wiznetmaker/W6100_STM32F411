@@ -1,0 +1,16 @@
+.\dhm.o: ..\Libraries\mbedtls\library\dhm.c
+.\dhm.o: ..\Libraries\mbedtls\library\common.h
+.\dhm.o: ../Port/mbedtls/inc/ssl_config.h
+.\dhm.o: ../Libraries/mbedtls/include/mbedtls/check_config.h
+.\dhm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\dhm.o: ../Libraries/mbedtls/include/mbedtls/dhm.h
+.\dhm.o: ../Libraries/mbedtls/include/mbedtls/bignum.h
+.\dhm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\dhm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\dhm.o: ../Libraries/mbedtls/include/mbedtls/platform_util.h
+.\dhm.o: ../Libraries/mbedtls/include/mbedtls/error.h
+.\dhm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\dhm.o: ../Libraries/mbedtls/include/mbedtls/pem.h
+.\dhm.o: ../Libraries/mbedtls/include/mbedtls/asn1.h
+.\dhm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\dhm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,9 @@
+.\test.o: ..\Libraries\aws-iot-device-sdk-embedded-C\libraries\standard\coreHTTP\source\dependency\3rdparty\http_parser\test.c
+.\test.o: ..\Libraries\aws-iot-device-sdk-embedded-C\libraries\standard\coreHTTP\source\dependency\3rdparty\http_parser\http_parser.h
+.\test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

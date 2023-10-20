@@ -1,0 +1,10 @@
+.\loopback.o: ..\Libraries\io6Library_Driver\Application\loopback\loopback.c
+.\loopback.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\loopback.o: ..\Libraries\io6Library_Driver\Application\loopback\loopback.h
+.\loopback.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\loopback.o: ../Libraries/io6Library_Driver/Ethernet/socket.h
+.\loopback.o: ../Libraries/io6Library_Driver/Ethernet/wizchip_conf.h
+.\loopback.o: ../Libraries/io6Library_Driver/Ethernet/./W6100/w6100.h
+.\loopback.o: ../Libraries/io6Library_Driver/Ethernet/wizchip_conf.h
+.\loopback.o: ../Libraries/io6Library_Driver/Ethernet/../Application/Application.h
+.\loopback.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

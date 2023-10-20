@@ -1,0 +1,12 @@
+.\core_http_client.o: ..\Libraries\aws-iot-device-sdk-embedded-C\libraries\standard\coreHTTP\source\core_http_client.c
+.\core_http_client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\core_http_client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\core_http_client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\core_http_client.o: ../Libraries/aws-iot-device-sdk-embedded-C/libraries/standard/coreHTTP/source/include/core_http_client.h
+.\core_http_client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\core_http_client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\core_http_client.o: ../Port/aws-iot-device-sdk-embedded-C/inc/core_http_config.h
+.\core_http_client.o: ../Libraries/aws-iot-device-sdk-embedded-C/libraries/standard/coreHTTP/source/include/core_http_config_defaults.h
+.\core_http_client.o: ../Libraries/aws-iot-device-sdk-embedded-C/libraries/standard/coreHTTP/source/interface/transport_interface.h
+.\core_http_client.o: ../Libraries/aws-iot-device-sdk-embedded-C/libraries/standard/coreHTTP/source/include/core_http_client_private.h
+.\core_http_client.o: ../Libraries/aws-iot-device-sdk-embedded-C/libraries/standard/coreHTTP/source/dependency/3rdparty/http_parser/http_parser.h

@@ -1,0 +1,16 @@
+.\pk_wrap.o: ..\Libraries\mbedtls\library\pk_wrap.c
+.\pk_wrap.o: ..\Libraries\mbedtls\library\common.h
+.\pk_wrap.o: ../Port/mbedtls/inc/ssl_config.h
+.\pk_wrap.o: ../Libraries/mbedtls/include/mbedtls/check_config.h
+.\pk_wrap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\pk_wrap.o: ../Libraries/mbedtls/include/mbedtls/pk_internal.h
+.\pk_wrap.o: ../Libraries/mbedtls/include/mbedtls/pk.h
+.\pk_wrap.o: ../Libraries/mbedtls/include/mbedtls/md.h
+.\pk_wrap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\pk_wrap.o: ../Libraries/mbedtls/include/mbedtls/rsa.h
+.\pk_wrap.o: ../Libraries/mbedtls/include/mbedtls/bignum.h
+.\pk_wrap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\pk_wrap.o: ../Libraries/mbedtls/include/mbedtls/error.h
+.\pk_wrap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\pk_wrap.o: ../Libraries/mbedtls/include/mbedtls/platform_util.h
+.\pk_wrap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

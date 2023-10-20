@@ -1,0 +1,9 @@
+.\dhcpv4.o: ..\Libraries\io6Library_Driver\Internet\DHCP4\dhcpv4.c
+.\dhcpv4.o: ../Libraries/io6Library_Driver/Ethernet/socket.h
+.\dhcpv4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\dhcpv4.o: ../Libraries/io6Library_Driver/Ethernet/wizchip_conf.h
+.\dhcpv4.o: ../Libraries/io6Library_Driver/Ethernet/./W6100/w6100.h
+.\dhcpv4.o: ../Libraries/io6Library_Driver/Ethernet/wizchip_conf.h
+.\dhcpv4.o: ../Libraries/io6Library_Driver/Ethernet/../Application/Application.h
+.\dhcpv4.o: ..\Libraries\io6Library_Driver\Internet\DHCP4\dhcpv4.h
+.\dhcpv4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

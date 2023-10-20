@@ -1,0 +1,14 @@
+.\bignum.o: ..\Libraries\mbedtls\library\bignum.c
+.\bignum.o: ..\Libraries\mbedtls\library\common.h
+.\bignum.o: ../Port/mbedtls/inc/ssl_config.h
+.\bignum.o: ../Libraries/mbedtls/include/mbedtls/check_config.h
+.\bignum.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\bignum.o: ../Libraries/mbedtls/include/mbedtls/bignum.h
+.\bignum.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\bignum.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\bignum.o: ../Libraries/mbedtls/include/mbedtls/bn_mul.h
+.\bignum.o: ../Libraries/mbedtls/include/mbedtls/platform_util.h
+.\bignum.o: ../Libraries/mbedtls/include/mbedtls/error.h
+.\bignum.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\bignum.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\bignum.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

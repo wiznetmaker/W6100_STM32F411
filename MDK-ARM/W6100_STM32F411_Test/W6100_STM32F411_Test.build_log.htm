@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: •ÏVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Wooyeon Lee wiznet Flex license: MDK Essential 5.31 (Flex): 1 user(s) (mdk_essential) Support: Sep 2020
+ 
+Tool Versions:
+Toolchain:       MDK Essential 5.31 (Flex): 1 user(s)  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\W6100_STM32F411\MDK-ARM\W6100_STM32F411_Test.uvprojx
+Project File Date:  10/10/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'W6100_STM32F411_Test'
+compiling ssl_transport_interface.c...
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(70): warning:  #767-D: conversion from pointer to smaller integer
+          if (getSn_RX_RSR((uint8_t)ctx) > 0)
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(72): warning:  #767-D: conversion from pointer to smaller integer
+              return recv((uint8_t)ctx, (uint8_t *)buf, (uint16_t)len);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(101): warning:  #223-D: function "mbedtls_debug_set_threshold" declared implicitly
+      debug_set_threshold(DEBUG_LEVEL);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(124): error:  #20: identifier "pers" is undefined
+                                       (const unsigned char *)pers, strlen(pers))) != 0)
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(141): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ret = mbedtls_x509_crt_parse(&tlsContext->cacert, (const unsigned char *)tlsContext->root_ca, strlen(tlsContext->root_ca) + 1);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(162): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ret = mbedtls_x509_crt_parse((&tlsContext->clicert), (const unsigned char *)tlsContext->client_cert, strlen(tlsContext->client_cert) + 1);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(171): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ret = mbedtls_pk_parse_key(&tlsContext->pkey, (const unsigned char *)tlsContext->private_key, strlen(tlsContext->private_key) + 1, NULL, 0);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(217): warning:  #167-D: argument of type "datasize_t (*)(uint8_t, uint8_t *, datasize_t)" is incompatible with parameter of type "mbedtls_ssl_send_t *"
+      mbedtls_ssl_set_bio(&tlsContext->ssl, socket_fd, send, recv, recv_timeout);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(217): warning:  #167-D: argument of type "datasize_t (*)(uint8_t, uint8_t *, datasize_t)" is incompatible with parameter of type "mbedtls_ssl_recv_t *"
+      mbedtls_ssl_set_bio(&tlsContext->ssl, socket_fd, send, recv, recv_timeout);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(97): warning:  #177-D: variable "error_buf"  was declared but never referenced
+      char error_buf[100];
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(243): warning:  #767-D: conversion from pointer to smaller integer
+      uint8_t sock = (uint8_t)(tlsContext->ssl.p_bio);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(251): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		ret = connect(sock, addr, port, 4);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(262): error:  #20: identifier "tempBuf" is undefined
+              memset(tempBuf, 0, 1024);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(274): error:  #20: identifier "tempBuf" is undefined
+              memset(tempBuf, 0, 1024);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(307): warning:  #767-D: conversion from pointer to smaller integer
+      uint8_t sock = (uint8_t)(tlsContext->ssl.p_bio);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(329): warning:  #68-D: integer conversion resulted in a change of sign
+      while (rc == MBEDTLS_ERR_SSL_WANT_WRITE);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(347): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const unsigned char *"
+      ret = mbedtls_x509_crt_parse(&ca_cert, (const char *)ca_data, ca_len + 1);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c(367): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const unsigned char *"
+      ret = mbedtls_pk_parse_key(&pk_cert, (const char *)pkey_data, pkey_len + 1, NULL, 0);
+..\Port\aws-iot-device-sdk-embedded-C\src\ssl_transport_interface.c: 15 warnings, 3 errors
+"W6100_STM32F411_Test\W6100_STM32F411_Test.axf" - 3 Error(s), 15 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil.STM32F4xx_DFP.2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_W6100_STM32F411_Test
+  C:\Users\82102\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Users\82102\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

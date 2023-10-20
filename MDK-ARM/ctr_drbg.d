@@ -1,0 +1,12 @@
+.\ctr_drbg.o: ..\Libraries\mbedtls\library\ctr_drbg.c
+.\ctr_drbg.o: ..\Libraries\mbedtls\library\common.h
+.\ctr_drbg.o: ../Port/mbedtls/inc/ssl_config.h
+.\ctr_drbg.o: ../Libraries/mbedtls/include/mbedtls/check_config.h
+.\ctr_drbg.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\ctr_drbg.o: ../Libraries/mbedtls/include/mbedtls/ctr_drbg.h
+.\ctr_drbg.o: ../Libraries/mbedtls/include/mbedtls/aes.h
+.\ctr_drbg.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\ctr_drbg.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\ctr_drbg.o: ../Libraries/mbedtls/include/mbedtls/platform_util.h
+.\ctr_drbg.o: ../Libraries/mbedtls/include/mbedtls/error.h
+.\ctr_drbg.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

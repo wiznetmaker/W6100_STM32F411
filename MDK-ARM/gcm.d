@@ -1,0 +1,14 @@
+.\gcm.o: ..\Libraries\mbedtls\library\gcm.c
+.\gcm.o: ..\Libraries\mbedtls\library\common.h
+.\gcm.o: ../Port/mbedtls/inc/ssl_config.h
+.\gcm.o: ../Libraries/mbedtls/include/mbedtls/check_config.h
+.\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\gcm.o: ../Libraries/mbedtls/include/mbedtls/gcm.h
+.\gcm.o: ../Libraries/mbedtls/include/mbedtls/cipher.h
+.\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\gcm.o: ../Libraries/mbedtls/include/mbedtls/platform_util.h
+.\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\gcm.o: ../Libraries/mbedtls/include/mbedtls/error.h
+.\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\gcm.o: ../Libraries/mbedtls/include/mbedtls/aesni.h
+.\gcm.o: ../Libraries/mbedtls/include/mbedtls/aes.h

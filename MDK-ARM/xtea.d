@@ -1,0 +1,10 @@
+.\xtea.o: ..\Libraries\mbedtls\library\xtea.c
+.\xtea.o: ..\Libraries\mbedtls\library\common.h
+.\xtea.o: ../Port/mbedtls/inc/ssl_config.h
+.\xtea.o: ../Libraries/mbedtls/include/mbedtls/check_config.h
+.\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\xtea.o: ../Libraries/mbedtls/include/mbedtls/xtea.h
+.\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\xtea.o: ../Libraries/mbedtls/include/mbedtls/platform_util.h
+.\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
